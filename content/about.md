@@ -1,5 +1,6 @@
 ---
 title: "About"
+showReadingTime: false
 menu:
   main:
 cover:
