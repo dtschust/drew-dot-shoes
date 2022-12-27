@@ -2,6 +2,9 @@
 	"baseURL": "https://drew.shoes",
 	"languageCode": "en-us",
 	"title": "drew dot shoes",
+	"author": {
+		"name": "Drew Schuster"
+	},
 	"enableEmoji": true,
 	"googleAnalytics": "G-48YQMQSZGS",
 	"theme": "ananke",
@@ -25,7 +28,17 @@
 				"name": "github",
 				"url": "https://github.com/dtschust",
 				"label": "github"
+			},
+			{
+				"name": "rss",
+				"url": "feed.xml",
+				"label": "rss"
 			}
 		]
+	},
+	"outputFormats": {
+		"RSS": {
+			"baseName": "feed"
+		}
 	}
 }
