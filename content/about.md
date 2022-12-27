@@ -2,7 +2,6 @@
 title: "About"
 menu:
   main:
-outputs:
 cover:
   image: "images/profile.jpg"
   alt: "Photo of Drew"
