@@ -1,5 +1,6 @@
 {
 	"baseURL": "https://drew.shoes",
+	"SectionPagesMenu": "main",
 	"languageCode": "en-us",
 	"title": "drew dot shoes",
 	"author": {
