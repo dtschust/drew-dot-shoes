@@ -1,0 +1,10 @@
+{
+	"baseURL": "https://dtschust.github.io/drew-dot-shoes",
+	"languageCode": "en-us",
+	"title": "drew dot shoes",
+	"enableEmoji": true,
+	"theme": "ananke",
+	"params" : {
+		"author": "Drew Schuster"
+	}
+}
