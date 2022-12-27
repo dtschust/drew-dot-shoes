@@ -6,20 +6,30 @@ net send lab2126-24 test and get an alert that looked like: The computer names w
   <img loading="lazy" src="./images/net%20send%20alert.png" alt="net send alert screenshot" />
 </p>
 <p>The computer names were predictable, something like lab + room number + computer number, and the computer numbers were physically written on the machines themselves. It was pretty clunky, and there was no scrollback, but it was a fun way to goof off during class by sending each other short messages.</p>
-<p>We quickly discovered a few interesting characteristics of the behavior of <code>net send</code> that could be used for some silliness. First, the alert dialog that opened up stole keyboard focus and was generally disruptive. You could spam as many <code>net send</code> commands as you wanted and the alerts would just pile up on a user&rsquo;s screen, with no clear way to dismiss them all. We took advantage of this by mashing up and enter as well as writing batch scripts to render our friends&rsquo; computers useless. Eventually a tense truce was called, when we found out that receiving a <code>net send</code> message while playing the hidden copy of Unreal Tournament GOTY we had installed on the school network would temporarily take the player out of the game for just long enough to be killed in a critical moment.</p>
+<p>We quickly discovered a few interesting characteristics of <code>net send</code> that could be used for some silliness. For one, the alert dialog that opened up stole keyboard focus and was generally disruptive. You could spam as many <code>net send</code> commands as you wanted and the alerts would just pile up on a user&rsquo;s screen, with no clear way to dismiss them all. We took advantage of this by mashing up and enter as well as writing batch scripts to render our friends&rsquo; computers useless. Eventually a tense truce was called, when we found out that receiving a <code>net send</code> message while playing the hidden copy of Unreal Tournament GOTY we had installed on the school network would temporarily take the player out of the game for just long enough to be killed in a critical moment.</p>
 <p>The most creative exploit we came up with for <code>net send</code> was on students (and teachers) who weren&rsquo;t yet aware of the feature. We had the ability to open an official windows alert on anyone&rsquo;s machine, and at a glance it wasn&rsquo;t obvious these messages were coming from another computer on the network. We started sending messages like &ldquo;Critical Error: Please Restart Your Computer Immediately&rdquo; and would watch with glee as our victim sighed deeply before restarting their computer.</p>
 <p>The <code>net send</code> joyriding was shortlived, however. Curious about any other avenues of abuse, I looked up the documentation for <code>net send</code> at home one evening and saw that it had wildcard support! Reading the docs, it appeared that if you did <code>net send * MESSAGE</code>, the MESSAGE would be sent to every computer on the entire network. As I did not have a home network to test this on at the time, I anxiously waited until the next day at school to tell my friends.</p>
 <p>The next day at lunch, I went to the computer lab and pulled up the documentation online for my friend Eric, and began explaining what I thought it did. As I was explaining that of course we shouldn&rsquo;t try such a thing because we would get in huge trouble if it worked, he ignored me and quickly typed into his machine and submitted the command that would forever live in infamy among our friends:
 
   <img loading="lazy" src="./images/net%20send%20*%20sup.png" alt="screenshot of windows command prompt with the command: net send * sup" />
 </p>
-<p>After a very brief moment, Eric&rsquo;s computer received the sup message. I glanced at mine and saw the very same sup message. A terrifying slow pan of our heads across the entire lab confirmed our fears: sup on every screen. We&rsquo;d gone wall to wall sup.</p>
-<p>If you look back at the screenshot above, there&rsquo;s another detail you might have missed: the alert dialog contains the name of the computer that sent the message. We were sitting at computer XX in room YYYY while everyone else looked at a message from lab-YYYY-XX. We were seated directly in front of the smoking gun. Like any reasonable 8th graders, we responded by immediately unplugging the computer and sprinting out of the room and down the stairs.</p>
+<p>After a very brief moment, Eric&rsquo;s computer received the sup message. I glanced at mine and saw the very same sup message. A terrifying slow pan of our heads across the entire lab confirmed our fears: sup on every screen. <strong>We&rsquo;d gone wall to wall sup!</strong></p>
+<p>If you look back at the screenshot of the alert above, there&rsquo;s another detail you might have missed: the alert text contains the name of the computer that sent the message. We were sitting at computer XX in room YYYY while everyone else looked at a message from lab-YYYY-XX. We were seated directly in front of the smoking gun. Like any reasonable 8th graders, we responded by immediately unplugging the computer and sprinting out of the room and down the stairs.</p>
+<p>When I got home from school, my younger sister who went to another school in the same district told me and my parents that every machine in her school had received a strange message that day that simply said &ldquo;sup&rdquo;. I held the best poker face my 14 year old self could, which I&rsquo;m sure was not very convincing.</p>
 <p>In retrospect, it&rsquo;s fortunate that the <code>net send</code> alert didn&rsquo;t include the username, only the originating machine. I&rsquo;m not sure if there are potentially audit logs that could determine which user sent which message, and now that I&rsquo;m a grownup I know that this was pretty harmless and we wouldn&rsquo;t have gotten in very much trouble anyway.</p>
-<p>When I got home from school, my younger sister who went to elementary school in the same school system told me and my parents that every machine in her school had received a strange message that day that simply said &ldquo;sup&rdquo;. I held the best poker face my 14 year old self could, which I&rsquo;m sure was not very convincing.</p>
-<p>By the time we got to school the next day, the IT person had disabled <code>net send</code> across the network. We&rsquo;d flown too close to the sun, and I forever learned my lesson: never read the docs.</p>
+<p>By the time we got to school the next day, the IT person had disabled <code>net send</code> across the network. We&rsquo;d flown too close to the sun, and I forever learned my lesson: <strong>never read the docs</strong>.</p>
 <p>This is my first post on this website, and when trying to think of what to say first this story came back to me, because Eric said everything that needed to be said on that fateful day:</p>
-<p>sup</p>
+<p align="center">
+↓
+<br><br><br><br><br><br><br>
+↓
+<br><br><br><br><br><br><br>
+↓
+<br><br><br><br><br><br><br>
+↓
+<br><br><br><br><br><br><br>
+sup
+</p>
 <script>
 (function () {
   function maybeAlertSup() {
@@ -30,6 +40,4 @@ net send lab2126-24 test and get an alert that looked like: The computer names w
   }
   addEventListener("scroll", maybeAlertSup);
 })();
-</script><blockquote>
-</blockquote>
-]]></content:encoded></item></channel></rss>
+</script>]]></content:encoded></item></channel></rss>
