@@ -5,26 +5,38 @@ title: drew dot shoes
 author:
   name: Drew Schuster
 enableEmoji: true
-googleAnalytics: G-48YQMQSZGS
+enableRobotsTXT: true
 theme: PaperMod
+menu:
+  main:
+  - identifier: rss
+    name: RSS
+    url: /feed.xml
 params:
   author: Drew Schuster
   show_reading_time: true
   disable_share: true
   background_color_class: bg-dark-gray
-  ananke_socials:
-  - name: mastodon
-    url: https://xoxo.zone/@nuncamind
-    label: mastodon
-  - name: twitter
-    url: https://twitter.com/nuncamind
-    label: twitter
-  - name: github
-    url: https://github.com/dtschust
-    label: github
-  - name: rss
-    url: feed.xml
-    label: rss
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
+  ShowFullTextinRSS: true
+  ShowShareButtons: false
+  ShowCodeCopyButtons: true
+  homeInfoParams:
+    Content: >
+      Let me tell you about my boat.
+  socialIcons:
+    - name: mastodon
+      url: https://xoxo.zone/@nuncamind
+    - name: twitter
+      url: "https://twitter.com/nuncamind"
+    - name: github
+      url: "https://github.com/dtschust"
+    - name: rss
+      url: "/feed.xml"
+  analytics:
+    google:
+      SiteVerificationTag: "G-48YQMQSZGS"
 outputFormats:
   RSS:
     baseName: feed
