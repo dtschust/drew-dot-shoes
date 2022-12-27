@@ -1,0 +1,30 @@
+baseURL: https://drew.shoes
+SectionPagesMenu: main
+languageCode: en-us
+title: drew dot shoes
+author:
+  name: Drew Schuster
+enableEmoji: true
+googleAnalytics: G-48YQMQSZGS
+theme: PaperMod
+params:
+  author: Drew Schuster
+  show_reading_time: true
+  disable_share: true
+  background_color_class: bg-dark-gray
+  ananke_socials:
+  - name: mastodon
+    url: https://xoxo.zone/@nuncamind
+    label: mastodon
+  - name: twitter
+    url: https://twitter.com/nuncamind
+    label: twitter
+  - name: github
+    url: https://github.com/dtschust
+    label: github
+  - name: rss
+    url: feed.xml
+    label: rss
+outputFormats:
+  RSS:
+    baseName: feed
