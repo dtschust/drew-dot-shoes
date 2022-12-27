@@ -7,6 +7,10 @@ author:
 enableEmoji: true
 enableRobotsTXT: true
 theme: PaperMod
+frontmatter:
+  date:
+  - publishDate
+  - :default
 menu:
   main:
   - identifier: rss
