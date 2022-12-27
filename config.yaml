@@ -19,6 +19,7 @@ menu:
   main:
   - identifier: rss
     name: RSS
+    title: rss
     url: /feed.xml
 params:
   author: Drew Schuster
