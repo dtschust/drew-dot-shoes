@@ -32,16 +32,8 @@ params:
   ShowCodeCopyButtons: true
   homeInfoParams:
     Content: >
-      Let me tell you about my boat.
-  socialIcons:
-    - name: mastodon
-      url: https://xoxo.zone/@nuncamind
-    - name: twitter
-      url: "https://twitter.com/nuncamind"
-    - name: github
-      url: "https://github.com/dtschust"
-    - name: rss
-      url: "/feed.xml"
+      ![photo of me in front of the Parthenon](/images/home.jpg)
+      <p align="center">Let me tell you about my boat</p>
   analytics:
     google:
       SiteVerificationTag: "G-48YQMQSZGS"
