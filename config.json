@@ -8,7 +8,7 @@
 	},
 	"enableEmoji": true,
 	"googleAnalytics": "G-48YQMQSZGS",
-	"theme": "ananke",
+	"theme": "PaperMod",
 	"params" : {
 		"author": "Drew Schuster",
 		"show_reading_time": true,
