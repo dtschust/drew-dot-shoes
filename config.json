@@ -3,10 +3,13 @@
 	"languageCode": "en-us",
 	"title": "drew dot shoes",
 	"enableEmoji": true,
+	"googleAnalytics": "G-48YQMQSZGS",
 	"theme": "ananke",
 	"params" : {
 		"author": "Drew Schuster",
 		"show_reading_time": true,
+		"disable_share": true,
+		"background_color_class": "bg-dark-gray",
 		"ananke_socials": [
 			{
 				"name": "mastodon",
