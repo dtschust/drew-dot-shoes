@@ -5,6 +5,24 @@
 	"enableEmoji": true,
 	"theme": "ananke",
 	"params" : {
-		"author": "Drew Schuster"
+		"author": "Drew Schuster",
+		"show_reading_time": true,
+		"ananke_socials": [
+			{
+				"name": "mastodon",
+				"url": "https://xoxo.zone/@nuncamind",
+				"label": "mastodon"
+			},
+			{
+				"name": "twitter",
+				"url": "https://twitter.com/nuncamind",
+				"label": "twitter"
+			},
+			{
+				"name": "github",
+				"url": "https://github.com/dtschust",
+				"label": "github"
+			}
+		]
 	}
 }
