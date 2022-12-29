@@ -35,9 +35,6 @@ params:
     Content: >
       ![photo of me in front of the Parthenon](/images/home.jpg)
       <p align="center">Let me tell you about my boat</p>
-  analytics:
-    google:
-      SiteVerificationTag: "G-48YQMQSZGS"
 outputFormats:
   RSS:
     baseName: feed
