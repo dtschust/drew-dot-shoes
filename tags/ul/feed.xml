@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on drew dot shoes</title><link>https://drew.shoes/posts/</link><description>Recent content in Posts on drew dot shoes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Mar 2023 15:20:00 -0700</lastBuildDate><atom:link href="https://drew.shoes/posts/feed.xml" rel="self" type="application/rss+xml"/><item><title>Unordered List 03-12-2023</title><link>https://drew.shoes/posts/ul-03-12-2023/</link><pubDate>Sun, 12 Mar 2023 15:20:00 -0700</pubDate><guid>https://drew.shoes/posts/ul-03-12-2023/</guid><description>Inspired by my friend Brook&amp;rsquo;s excellent weekly newsletters, here&amp;rsquo;s an unordered list of some things I&amp;rsquo;ve come across lately.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ul on drew dot shoes</title><link>https://drew.shoes/tags/ul/</link><description>Recent content in ul on drew dot shoes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Mar 2023 15:20:00 -0700</lastBuildDate><atom:link href="https://drew.shoes/tags/ul/feed.xml" rel="self" type="application/rss+xml"/><item><title>Unordered List 03-12-2023</title><link>https://drew.shoes/posts/ul-03-12-2023/</link><pubDate>Sun, 12 Mar 2023 15:20:00 -0700</pubDate><guid>https://drew.shoes/posts/ul-03-12-2023/</guid><description>Inspired by my friend Brook&amp;rsquo;s excellent weekly newsletters, here&amp;rsquo;s an unordered list of some things I&amp;rsquo;ve come across lately.
 Did The weather in the Bay Area has been rough for the past few weeks, so I haven&amp;rsquo;t been out too much. Part of the joy of living in California is that you kind of give up on fighting the weather. If the weather sucks, just stay inside until it changes, it usually won&amp;rsquo;t be long.</description><content:encoded><![CDATA[<p>Inspired by my friend Brook&rsquo;s <a href="https://buttondown.email/brookshelley">excellent weekly newsletters</a>, here&rsquo;s an unordered list of some things I&rsquo;ve come across lately.</p>
 <h1 id="did">Did</h1>
 <p>The weather in the Bay Area has been rough for the past few weeks, so I haven&rsquo;t been out too much. Part of the joy of living in California is that you kind of give up on fighting the weather. If the weather sucks, just stay inside until it changes, it usually won&rsquo;t be long. This is the maybe worst non-fire-related block of weather I&rsquo;ve experienced since I&rsquo;ve lived in San Francisco, and I finally hit my breaking point this weekend on the &ldquo;wait it out&rdquo; strategy. I got out the limited rain appropriate gear I have, and went for some hikes in the pouring rain. It was glorious, and I now know that I can walk to a peak of Twin Peaks in about 20 minutes from the apartment I recently moved to. I feel invigorated and refreshed, and no longer down in the dumps about the weather. I mean, it&rsquo;s just wet, it&rsquo;s not cold! Today I tried to time my walk with maximum rain, and although I didn&rsquo;t time it perfectly it felt freeing to aim for it. Watching a rainstorm come in from the top of a hill is right up there with watching a brilliant sunset imo.</p>
@@ -140,46 +140,4 @@ Did The weather in the Bay Area has been rough for the past few weeks, so I have
 </li>
 </ul>
 <p>ok, bye.</p>
-]]></content:encoded></item><item><title>sup</title><link>https://drew.shoes/posts/sup/</link><pubDate>Mon, 26 Dec 2022 17:41:43 -0800</pubDate><guid>https://drew.shoes/posts/sup/</guid><description>When I was in junior high, my friends and I discovered that a Command Prompt command called net send was enabled on our school network. AIM and similar services were blocked, but if we wanted to send messages to each other we could open up the Command Prompt and type something like:
-net send lab2126-24 test and get an alert that looked like: The computer names were predictable, something like lab + room number + computer number, and the computer numbers were physically written on the machines themselves.</description><content:encoded><![CDATA[<p>When I was in junior high, my friends and I discovered that a Command Prompt command called <a href="(https://www.lifewire.com/net-send-2618095)">net send</a> was enabled on our school network. AIM and similar services were blocked, but if we wanted to send messages to each other we could open up the Command Prompt and type something like:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>net send lab2126-24 test
-</span></span></code></pre></div><p>and get an alert that looked like:
-
-  <img loading="lazy" src="./images/net%20send%20alert.png" alt="net send alert screenshot" />
-</p>
-<p>The computer names were predictable, something like lab + room number + computer number, and the computer numbers were physically written on the machines themselves. It was pretty clunky, and there was no scrollback, but it was a fun way to goof off during class by sending each other short messages.</p>
-<p>We quickly discovered a few interesting characteristics of <code>net send</code> that could be used for some silliness. For one, the alert dialog that opened up stole keyboard focus and was generally disruptive. You could spam as many <code>net send</code> commands as you wanted and the alerts would just pile up on a user&rsquo;s screen, with no clear way to dismiss them all. We took advantage of this by mashing up and enter as well as writing batch scripts to render our friends&rsquo; computers useless. Eventually a tense truce was called, when we found out that receiving a <code>net send</code> message while playing the hidden copy of Unreal Tournament GOTY we had installed on the school network would temporarily take the player out of the game for just long enough to be killed in a critical moment.</p>
-<p>The most creative exploit we came up with for <code>net send</code> was on students (and teachers) who weren&rsquo;t yet aware of the feature. We had the ability to open an official windows alert on anyone&rsquo;s machine, and at a glance it wasn&rsquo;t obvious these messages were coming from another computer on the network. We started sending messages like &ldquo;Critical Error: Please Restart Your Computer Immediately&rdquo; and would watch with glee as our victim sighed deeply before restarting their computer.</p>
-<p>The <code>net send</code> joyriding was shortlived, however. Curious about any other avenues of abuse, I looked up the documentation for <code>net send</code> at home one evening and saw that it had wildcard support! Reading the docs, it appeared that if you did <code>net send * MESSAGE</code>, the MESSAGE would be sent to every computer on the entire network. As I did not have a home network to test this on at the time, I anxiously waited until the next day at school to tell my friends.</p>
-<p>The next day at lunch, I went to the computer lab and pulled up the documentation online for my friend Eric, and began explaining what I thought it did. As I was explaining that of course we shouldn&rsquo;t try such a thing because we would get in huge trouble if it worked, he ignored me and quickly typed into his machine and submitted the command that would forever live in infamy among our friends:
-
-  <img loading="lazy" src="./images/net%20send%20*%20sup.png" alt="screenshot of windows command prompt with the command: net send * sup" />
-</p>
-<p>After a very brief moment, Eric&rsquo;s computer received the sup message. I glanced at mine and saw the very same sup message. A terrifying slow pan of our heads across the entire lab confirmed our fears: sup on every screen. <strong>We&rsquo;d gone wall to wall sup!</strong></p>
-<p>If you look back at the screenshot of the alert above, there&rsquo;s another detail you might have missed: the alert text contains the name of the computer that sent the message. We were sitting at computer XX in room YYYY while everyone else looked at a message from lab-YYYY-XX. We were seated directly in front of the smoking gun. Like any reasonable 8th graders, we responded by immediately unplugging the computer and sprinting out of the room and down the stairs.</p>
-<p>When I got home from school, my younger sister who went to another school in the same district told me and my parents that every machine in her school had received a strange message that day that simply said &ldquo;sup&rdquo;. I held the best poker face my 14 year old self could, which I&rsquo;m sure was not very convincing.</p>
-<p>In retrospect, it&rsquo;s fortunate that the <code>net send</code> alert didn&rsquo;t include the username, only the originating machine. I&rsquo;m not sure if there are potentially audit logs that could determine which user sent which message, and now that I&rsquo;m a grownup I know that this was pretty harmless and we wouldn&rsquo;t have gotten in very much trouble anyway.</p>
-<p>By the time we got to school the next day, the IT person had disabled <code>net send</code> across the network. We&rsquo;d flown too close to the sun, and I forever learned my lesson: <strong>never read the docs</strong>.</p>
-<p>This is my first post on this website, and when trying to think of what to say first this story came back to me, because Eric said everything that needed to be said on that fateful day:</p>
-<p align="center">
-↓
-<br><br><br><br><br><br><br>
-↓
-<br><br><br><br><br><br><br>
-↓
-<br><br><br><br><br><br><br>
-↓
-<br><br><br><br><br><br><br>
-sup
-</p>
-<script>
-(function () {
-  function maybeAlertSup() {
-    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100) {
-        window.alert("sup");
-  	  removeEventListener("scroll", maybeAlertSup)
-    }
-  }
-  addEventListener("scroll", maybeAlertSup);
-})();
-</script>]]></content:encoded></item></channel></rss>
+]]></content:encoded></item></channel></rss>
