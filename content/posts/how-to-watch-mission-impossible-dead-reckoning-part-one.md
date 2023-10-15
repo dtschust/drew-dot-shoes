@@ -55,4 +55,30 @@ This year, Light The Fuse was declared the official podcast of Mission: Impossib
 * Todd Vaziri, Digital Effects Artist for Mission: Impossible III and Ghost Protocol, on episodes [67](https://www.lightthefusepodcast.com/67-todd-vaziri-interview-part-1) and [68](https://www.lightthefusepodcast.com/68-todd-vaziri-interview-part-2).
 * Craig O'Brien, Skydiving Camera Operator for Fallout, on episode [166](https://www.lightthefusepodcast.com/166-craig-obrien-interview).
 
-As Tom would say: We'll see you at the movies!
+<p align="center">
+<br><br><br>
+↓
+<br><br><br><br><br><br><br>
+↓
+<br><br><br><br><br><br><br>
+↓
+<br><br><br><br><br><br><br>
+↓
+<br><br><br><br><br><br><br>
+</p>
+<p>
+This message will self destruct in five seconds.
+</p>
+<script>
+(function () {
+  function maybeSelfDestruct() {
+    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100) {
+      setTimeout(() => {
+        document.querySelector('article').innerText = '';
+      }, 5000);
+      removeEventListener("scroll", maybeSelfDestruct);
+    }
+  }
+  addEventListener("scroll", maybeSelfDestruct);
+})();
+</script>
